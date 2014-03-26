@@ -9,6 +9,7 @@ namespace _7_TableOfSquares
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
