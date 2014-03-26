@@ -9,11 +9,12 @@ namespace _1_Sum
     {
         static void Main(string[] args)
         {
+            int result = 0, n;
             while (true)
             {
                 Console.Write("Enter a number:");
                 string Input = Console.ReadLine();
-                int result = 0, n;
+                
 
                 n = Convert.ToInt32(Input);
 
