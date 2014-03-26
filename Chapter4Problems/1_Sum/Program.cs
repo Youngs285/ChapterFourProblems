@@ -9,18 +9,26 @@ namespace _1_Sum
     {
         static void Main(string[] args)
         {
-            string Input = Console.ReadLine();
-            int n = 0;
-
-            n = Convert.ToInt32(Input);
-
-
-            
-            for (int i = 0; i < 999; i+n)
-            }
+            while (true)
+            {
                 Console.Write("Enter a number:");
+                string Input = Console.ReadLine();
+                int result = 0, n;
+
+                n = Convert.ToInt32(Input);
+
                 
-            }
+
+                if (n > 999)
+                {
+                    break;
+                }
+                else
+                {
+                    result = result + n; 
+                }
+                System.Console.WriteLine(result);
+            }    
         }
     }
 }
